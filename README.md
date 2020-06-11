@@ -22,5 +22,5 @@ For questions, queries and bug reports, please feel free to contact: htorun3@gat
 ## System Requirements:
 The code is tested using Matlab R2018b and R2019a, and has dependency to "Statistics and Machine Learning Toolbox". If you don't have the required toolbox, please change the hyperparameter optimization procedure in line 170 of "DPTBO.m" with gradient descent based optimizer of your own choosing.
 
-## TODO:
+## TO DO:
 HFSS files to be added.
