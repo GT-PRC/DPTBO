@@ -7,11 +7,12 @@ Georgia Institute of Technology <br />
 
 The Matlab code associated with the paper ["High Dimensional Global Optimization Method for High-Frequency Electronic Design"](https://ieeexplore.ieee.org/document/8727492). 
 
-We propose a new high-dimensional Bayesian optimization (BO) method, Bayesian Optimization with Deep Partitioning Tree (DPT-BO), which uses an additive Gaussian Process (GP) to approximate the high-dimensional objective function. The additive structure we use preserve interaction between every parameter to capture various classes of functions that can be modelled. This makes the DPT-BO method particularly applicable to high-frequency electronic design problems since such interactions needs to be considered in high-frequency design problems.  
+This work is funded in part by the DARPA CHIPS project under award N00014-17-1-2950 and by ASCENT, one of six centers in JUMP, a Semiconductor Research Corporation (SRC) program sponsored by DARPA and NSF I/UCRC Center for Advanced Electronics Through Machine Learning (CAEML).
 
-Preserving such interactions makes the auxiliary optimization of acquisition function in BO very challenging. Here, we propose a new hierarchical partitioning scheme, Deep Partitioning Tree, that completely eliminates this auxiliary optimization step and uses sensitivity of input parameters to determine where to query the function next. The sensitivities are learned on-the-fly by utilizing Automatic Relevance Determination (ARD) kernels for the GP.
-
-This work is funded in part by the DARPA CHIPS project under award N00014-17-1-2950 and by ASCENT, one of six centers in JUMP, a Semiconductor Research Corporation (SRC) program sponsored by DARPA.
+Please cite our paper if you use any part of the code: <br />
+H. M. Torun and M. Swaminathan, <br />
+"High Dimensional Global Optimization Method for High-Frequency Electronic Design" <br />
+in IEEE Transactions on Microwave Theory and Techniques, vol. 66, no. 6, June 2019. <br />
 
 For questions, queries and bug reports, please feel free to contact: htorun3@gatech.edu
 

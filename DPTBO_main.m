@@ -1,4 +1,4 @@
-% Copyright (c) 2019 Hakki Mert Torun
+% Copyright (c) 2020 
 % School of Electrical and Computer Engineering
 % 3D Packaging Research Center (PRC)
 % Georgia Institute of Technology
@@ -7,11 +7,6 @@
 %High Dimensional Bayesian Optimization with Deep Partitioning Tree
 %(DPT-BO) for maximizing a black-box objective function.
 %If you want minimization, multiply objective function by "-1".
-
-%This work is funded in part by the DARPA CHIPS project under
-%Award N00014-17-1-2950 and by ASCENT, one of six centers in JUMP, a
-%Semiconductor Research Corporation (SRC) program sponsored by DARPA
-%For questions and queries, please contact: htorun3@gatech.edu
 
 %Please cite our paper if you use any part of the code:
 %H. M. Torun and M. Swaminathan,

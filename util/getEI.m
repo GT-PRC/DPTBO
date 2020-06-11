@@ -1,4 +1,7 @@
-%Copyright (c) 2019 Hakki M. Torun
+% Copyright (c) 2020 
+% 3D Packaging Research Center (PRC)
+% Georgia Institute of Technology
+
 %Expected improvement acquisition function
 function EI = getEI(gp_output,sample_std,max_of_targets, EI_param)
     sigma1 = EI_param;

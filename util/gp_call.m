@@ -1,3 +1,7 @@
+% Copyright (c) 2020 
+% 3D Packaging Research Center (PRC)
+% Georgia Institute of Technology
+
 function [nll,dll,final_lik] = gp_call(hyp2, infFunc, meanfunc, covfunc, likfunc, total_samples, total_targets,allCombinations)
 done = false;
 while (~done)

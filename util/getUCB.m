@@ -1,4 +1,7 @@
-%Copyright (c) 2019 Hakki M. Torun
+% Copyright (c) 2020 
+% 3D Packaging Research Center (PRC)
+% Georgia Institute of Technology
+
 %Upper confidence bound acquisition function
 function UCB = getUCB(gp_output,sample_std,M, UCB_param)
     nu = UCB_param;

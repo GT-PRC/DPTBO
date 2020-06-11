@@ -1,4 +1,7 @@
-%Copyright (c) 2019 Hakki Mert Torun
+% Copyright (c) 2020 
+% 3D Packaging Research Center (PRC)
+% Georgia Institute of Technology
+
 %Splits given domain into 2^d regions along the dimensions 'd'(array).
 function output_domains = splitregion_selected(domain,d)
 D = size(domain,1);

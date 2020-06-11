@@ -1,5 +1,8 @@
-%Copyright (c) 2019 Hakki M. Torun
-%Matern covariance function with unit signal variance, i.e. sf = 1
+% Copyright (c) 2020 
+% 3D Packaging Research Center (PRC)
+% Georgia Institute of Technology
+
+% Matern covariance function with unit signal variance, i.e. sf = 1
 function varargout = covMaternisoU(d,varargin)
 
 % Wrapper for Matern covariance function covMatern.m.

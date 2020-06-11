@@ -1,4 +1,7 @@
-%Copyright (c) 2019 Hakki M. Torun
+% Copyright (c) 2020 
+% 3D Packaging Research Center (PRC)
+% Georgia Institute of Technology
+
 %Probability of improvement acquisition function
 function PI = getPI(gp_output,sample_std,max_of_targets, PI_param)
     sigma1 = PI_param;
